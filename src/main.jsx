@@ -73,6 +73,8 @@ function Login({ onLogin }) {
           {error && <p className="error-message">{error}</p>}
           <button type="submit">Entrar</button>
         </form>
+
+        <p className="hint">Senha padrão: {DEFAULT_PASSWORD}</p>
       </section>
     </main>
   );
